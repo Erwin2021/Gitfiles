@@ -27,13 +27,22 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="v5t-4t-Ece">
+                                <rect key="frame" x="240" y="427" width="121" height="29"/>
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Second"/>
+                                </segments>
+                            </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="A8U-lI-iJA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6HH-Hj-LXe"/>
+                            <constraint firstItem="v5t-4t-Ece" firstAttribute="top" secondItem="0uH-Eu-r8I" secondAttribute="bottom" constant="60" id="8wS-Eq-n1t"/>
                             <constraint firstItem="0uH-Eu-r8I" firstAttribute="top" secondItem="A8U-lI-iJA" secondAttribute="bottom" constant="31" id="Fa8-pT-UMP"/>
                             <constraint firstItem="0uH-Eu-r8I" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cvk-qX-1JS"/>
                             <constraint firstItem="A8U-lI-iJA" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="dJC-i4-dYj"/>
+                            <constraint firstItem="v5t-4t-Ece" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kns-lV-avc"/>
                         </constraints>
                     </view>
                 </viewController>
